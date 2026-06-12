@@ -1,1 +1,1 @@
-# Owner-avatar-COSC-1437_Assignment-6
+# COSC-1437_Assignment-6
