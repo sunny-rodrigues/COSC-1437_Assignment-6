@@ -154,7 +154,7 @@ void mathSummary(double x)
 
 //--------------------------------------------------------------
 // Function: calcTax
-// Purpose: Calculates tax owed.
+// Purpose: Calculates the tax owed.
 // Parameters:
 //      income - gross income
 //      rate   - tax rate
@@ -170,7 +170,7 @@ double calcTax(double income, double rate)
 // Function: printHeader
 // Purpose: Prints a formatted header.
 // Parameters:
-//      courseTitle - title to display
+//      courseTitle - the title to display
 // Return: none
 //--------------------------------------------------------------
 void printHeader(string courseTitle)
@@ -182,7 +182,7 @@ void printHeader(string courseTitle)
 
 //--------------------------------------------------------------
 // Function: displayResult
-// Purpose: Displays a label and value.
+// Purpose: It displays a label and value.
 // Parameters:
 //      label - text description
 //      value - numeric value
@@ -204,7 +204,7 @@ void displayResult(string label, double value)
 //      seconds: output seconds (reference parameter)
 // Return: none
 //
-// minutes and seconds are reference parameters because
+// minutes and seconds are reference parameters, it is because
 // the function must send the calculated values back to
 // the calling function (main).
 //--------------------------------------------------------------
@@ -221,8 +221,8 @@ void convertTime(int totalSeconds,
 // Purpose: Tp count how many times the function is called.
 // Return: none
 //
-// A static variable keeps its value between function calls.
-// A regular local variable is recreated each time the
+// A static variable keeps its value between function calls,
+// and A regular local variable is recreated each time the
 // function executes.
 //--------------------------------------------------------------
 void countCalls()
@@ -289,9 +289,9 @@ void displayBox(int width, int height)
 // Function: calcShipping
 // Purpose: Calculates shipping cost.
 // Parameters:
-//      weight - package weight
-//      ratePerPound - shipping rate
-//      baseFee - base fee
+//      weight - is for the package weight
+//      ratePerPound - is for the shipping rate
+//      baseFee - is for the base fee
 // Return:
 //      total shipping cost
 //--------------------------------------------------------------
